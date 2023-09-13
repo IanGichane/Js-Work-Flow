@@ -27,7 +27,8 @@ if (user==='student'){
 
 //SWITCH CASE
 switch(User){
-    case'student';
+    case'student':
+    
     console
 
 }
