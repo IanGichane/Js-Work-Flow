@@ -18,10 +18,11 @@ console.log(cars.model)
 console.log(cars['model'])
 
 
-//Adding properties
+//Adding properties/Updating values to an object
 cars.numberPlate='KCZ'
+//cats['numberplate']='KCZ'
 console.log(cars)
-
+cars.owner='Gichane'
 
 //Updating
 cars.model='Toyota'
@@ -43,7 +44,8 @@ console.log(Object.values(cars))
 const carCopy = {...cars}
 
 
-
+//Deleting Values
+delete cars.yearOfManufature
 
 
 

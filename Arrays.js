@@ -1,4 +1,5 @@
-//Arrys can store multiple values
+/**
+ * //Arrys can store multiple values-they are ordered lists of related data
 //Each value has an index
 //An arry is a collection of different data types which are ordered and mutable
 //Can store duplicate values
@@ -29,8 +30,14 @@ const nums = [9,8,7,6,5,4,3,2,1]
  //1.4 Modifying array element
  nums[0]='IAN'
  console.log(nums)
+ */
 
 
+ const scores = [45,34,56,67]
+
+ ///index - position of an element in an array(starts at index 0)
+
+console.log(scores[1])
 
 
 
@@ -40,4 +47,4 @@ const nums = [9,8,7,6,5,4,3,2,1]
 
 
  //spread operator
- Makes a copy of an array
+ //Makes a copy of an array

@@ -5,7 +5,13 @@
 /**
  * divided into 2
  1.Primitive
- umber,strings,boolean,objects,null,undefined,symbol
+ a).Numbers
+ strings-Single quote '',backtick,Double quote ""
+ boolean
+ objects
+ null
+ undefined
+ symbol
  once a primitive is created,it cannot be modified-i.e immutable
  2.Non primitive-Object references
 Objects,Arrays
@@ -54,3 +60,10 @@ console.log(typeof nums)
 
 /**Null */
 console.log(typeof null)
+
+
+
+/**
+ * 
+ *String interpolation is the replacement of defined character sequences in a string by given values.  
+ */
